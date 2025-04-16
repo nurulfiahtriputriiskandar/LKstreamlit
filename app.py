@@ -59,7 +59,7 @@ st.markdown("""
         border: 1px solid #ccc;
     }
 
-    .css-1d391kg {  /* Sidebar radio buttons */
+    .css-1d391kg {  / Sidebar radio buttons /
         color: #6a0dad;
         font-weight: bold;
     }
@@ -120,11 +120,11 @@ if menu == "Formulir":
 
         if submitted:
             st.success("Terima kasih! Jawaban kamu sudah direkam.")
-            st.write(f"**Nama:** {nama}")
-            st.write(f"**Grup Favorit:** {grup}")
-            st.write(f"**Lagu Favorit:** {lagu}")
-            st.write(f"**Frekuensi Dengar:** {frekuensi}")
-            st.write(f"**Alasan:** {alasan}")
+            st.write(f"Nama: {nama}")
+            st.write(f"Grup Favorit: {grup}")
+            st.write(f"Lagu Favorit: {lagu}")
+            st.write(f"Frekuensi Dengar: {frekuensi}")
+            st.write(f"Alasan: {alasan}")
 
 # Data
 elif menu == "Data Responden":
@@ -157,7 +157,7 @@ elif menu == "Statistik":
 # Tentang
 elif menu == "Tentang":
     st.header("💜 Tentang Website Ini")
-    st.video("https://www.youtube.com/watch?v=3YqPKLZF_WU")  # contoh MV K-Pop (ganti sesuai pilihan)
+    st.video("https://www.youtube.com/watch?v=3YqPKLZF_WU") 
     st.markdown(" Website ini dirancang untuk mengumpulkan data dari para fans K-Pop tentang grup dan lagu favorit mereka." \
     
      "Tujuannya adalah memahami tren fandom di kalangan K-Popers muda." \
